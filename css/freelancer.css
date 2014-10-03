@@ -31,9 +31,13 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+p.hero  {
+  font-size: 2.35294em;
+  font-weight: normal;
 }
 
 hr.star-light,
@@ -82,11 +86,15 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background-color: #79ACDA;
+}
+
+.navbar-default {
+    background-color: #79ACDA;
 }
 
 header .container {
-    padding-top: 100px;
+    padding-top: 60px;
     padding-bottom: 50px;
 }
 
@@ -110,8 +118,8 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 130px;
+        padding-bottom: 50px;
     }
 
     header .intro-text .name {
@@ -148,9 +156,46 @@ header .intro-text .skills {
 }
 
 .navbar {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+}
+
+.navbar li a {
+    font-size: 1.35294em;
+    padding: 0.5em 0.66em;
+    margin: 0px 0.32em;
+    border-radius: 5px;
+    background-color: #6C9AC3;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+.navbar li a:hover, .navbar li a:focus, .navbar li a:active {
+  color: white !important;
+  background-color: #638DB3 !important;
+}
+
+.navbar li a.reverse, a.trynow {
+    background-color: white;
+    color: #6C9AC3;
+    font-size: 1.35294em;
+    padding: 0.5em 0.66em;
+    margin: 0px 0.32em;
+    border-radius: 5px;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+a.padded-right {
+  margin-right: 50px;
+}
+
+.navbar li a.reverse:hover, .navbar li a.reverse:focus, .navbar li a.reverse:active,
+a.trynow:hover, a.trynow:focus, a.trynow:active {
+  background-color: #1BBD9D !important;
+  color: white !important;
+  text-decoration: none;
 }
 
 .navbar a:focus {
@@ -171,7 +216,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2 {
