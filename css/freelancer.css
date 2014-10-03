@@ -403,6 +403,32 @@ footer .footer-below {
     line-height: 45px;
 }
 
+li a.contact {
+    display: block;
+    padding: 10px;
+    width: 200px;
+    color: #2C3E50;
+}
+
+li a.contact:hover,
+li a.contact:focus,
+li a.contact.active {
+    text-decoration: none;
+    color: #18BC9C;
+}
+
+li a.contact .btn-social {
+    border: 2px solid #2C3E50 !important;
+    color: #2C3E50 !important;
+}
+
+li a.contact:hover .btn-social,
+li a.contact:focus .btn-social,
+li a.contact:active .btn-social {
+    border: solid 2px #18BC9C !important;
+    color: white !important;
+    background: #18BC9C;
+}
 .btn:focus,
 .btn:active,
 .btn.active {
