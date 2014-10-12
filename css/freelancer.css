@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #2c3e50;
 }
 
 h1,
@@ -86,11 +86,11 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background-color: #79ACDA;
+    background-color: #2c3e50;
 }
 
 .navbar-default {
-    background-color: #79ACDA;
+    background-color: #2c3e50;
 }
 
 header .container {
@@ -164,7 +164,7 @@ header .intro-text .skills {
     padding: 0.5em 0.66em;
     margin: 0px 0.32em;
     border-radius: 5px;
-    background-color: #6C9AC3;
+    background-color: #2c3e50;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -172,12 +172,12 @@ header .intro-text .skills {
 
 .navbar li a:hover, .navbar li a:focus, .navbar li a:active {
   color: white !important;
-  background-color: #638DB3 !important;
+  background-color: #2c3e50 !important;
 }
 
 .navbar li a.reverse, a.trynow {
     background-color: white;
-    color: #6C9AC3;
+    color: #2c3e50;
     font-size: 1.35294em;
     padding: 0.5em 0.66em;
     margin: 0px 0.32em;
@@ -193,7 +193,7 @@ a.padded-right {
 
 .navbar li a.reverse:hover, .navbar li a.reverse:focus, .navbar li a.reverse:active,
 a.trynow:hover, a.trynow:focus, a.trynow:active {
-  background-color: #1BBD9D !important;
+  background-color: #2c3e50 !important;
   color: white !important;
   text-decoration: none;
 }
@@ -371,6 +371,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
+	background-color: #2c3e50;
     color: #fff;
 }
 
@@ -407,25 +408,25 @@ li a.contact {
     display: block;
     padding: 10px;
     width: 200px;
-    color: #2C3E50;
+    color: #2c3e50;
 }
 
 li a.contact:hover,
 li a.contact:focus,
 li a.contact.active {
     text-decoration: none;
-    color: #18BC9C;
+    color: #2c3e50;
 }
 
 li a.contact .btn-social {
-    border: 2px solid #2C3E50 !important;
+    border: 2px solid #2c3e50 !important;
     color: #2C3E50 !important;
 }
 
 li a.contact:hover .btn-social,
 li a.contact:focus .btn-social,
 li a.contact:active .btn-social {
-    border: solid 2px #18BC9C !important;
+    border: solid 2px #2c3e50C !important;
     color: white !important;
     background: #18BC9C;
 }
@@ -454,63 +455,4 @@ li a.contact:active .btn-social {
 
 .scroll-top .btn:focus {
     outline: 0;
-}
-
-.portfolio-modal .modal-content {
-    padding: 100px 0;
-    min-height: 100%;
-    border: 0;
-    border-radius: 0;
-    text-align: center;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-.portfolio-modal .modal-content h2 {
-    margin: 0;
-    font-size: 3em;
-}
-
-.portfolio-modal .modal-content img {
-    margin-bottom: 30px;
-}
-
-.portfolio-modal .modal-content .item-details {
-    margin: 30px 0;
-}
-
-.portfolio-modal .close-modal {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-.portfolio-modal .close-modal:hover {
-    opacity: .3;
-}
-
-.portfolio-modal .close-modal .lr {
-    z-index: 1051;
-    width: 1px;
-    height: 75px;
-    margin-left: 35px;
-    background-color: #2c3e50;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-.portfolio-modal .close-modal .lr .rl {
-    z-index: 1052;
-    width: 1px;
-    height: 75px;
-    background-color: #2c3e50;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
 }
