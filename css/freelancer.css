@@ -116,6 +116,16 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
+header .intro-text h2 a {
+    text-decoration: none;
+}
+
+
+header .intro-text h2 a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
 @media(min-width:768px) {
     header .container {
         padding-top: 130px;
