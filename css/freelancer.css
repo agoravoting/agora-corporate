@@ -211,23 +211,10 @@ header .intro-text h2 a:hover {
 
 }
 
-.btn-block:hover a {
-  color: white !important;
-  -webkit-transition: all ease .5s;
-  -moz-transition: all ease .5s;
-  transition: all ease .5s;
-}
-
-.btn-block a {
-  color: white !important;
-  -webkit-transition: all ease .5s;
-  -moz-transition: all ease .5s;
-  transition: all ease .5s;
-}
-
 .btn-block {
   background: #5CB85C;
   border: 1px solid #5CB85C;
+  color: white !important;
   -webkit-transition: all ease .5s;
   -moz-transition: all ease .5s;
   transition: all ease .5s;
