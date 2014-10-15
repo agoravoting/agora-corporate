@@ -86,11 +86,11 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background-color: #2c3e50;
+    background-color: #79ACDA;
 }
 
 .navbar-default {
-    background-color: #2c3e50;
+    background-color: #79ACDA;
 }
 
 header .container {
@@ -122,7 +122,6 @@ header .intro-text h2 a {
 
 
 header .intro-text h2 a:hover {
-    text-decoration: underline;
     color: #fff;
 }
 
@@ -163,6 +162,10 @@ header .intro-text h2 a:hover {
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
+    .navbar-fixed-top.navbar-shrink .navbar-collapse {
+      margin-top: 4px;
+    }
 }
 
 .navbar {
@@ -174,7 +177,7 @@ header .intro-text h2 a:hover {
     padding: 0.5em 0.66em;
     margin: 0px 0.32em;
     border-radius: 5px;
-    background-color: #2c3e50;
+    background-color: #79ACDA;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -183,12 +186,11 @@ header .intro-text h2 a:hover {
 .navbar li a:hover, .navbar li a:focus, .navbar li a:active {
   color: white !important;
   background-color: #2c3e50 !important;
-  text-decoration: underline;
 }
 
 .navbar li a.reverse, a.trynow {
     background-color: white;
-    color: #2c3e50;
+    color: #79ACDA;
     font-size: 1.35294em;
     padding: 0.5em 0.66em;
     margin: 0px 0.32em;
@@ -196,6 +198,38 @@ header .intro-text h2 a:hover {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
+}
+
+.btn-block:hover {
+  background: transparent;
+  color: white !important;
+  border: 1px solid white;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+  transition: all ease .5s;
+
+}
+
+.btn-block:hover a {
+  color: white !important;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+  transition: all ease .5s;
+}
+
+.btn-block a {
+  color: #79ACDA !important;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+  transition: all ease .5s;
+}
+
+.btn-block {
+  background: white;
+  border: 1px solid white;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+  transition: all ease .5s;
 }
 
 a.padded-right {
