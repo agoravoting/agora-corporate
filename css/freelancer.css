@@ -86,11 +86,11 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background-color: #79ACDA;
+    background-color: #2c3e50;
 }
 
 .navbar-default {
-    background-color: #79ACDA;
+    background-color: #2c3e50;
 }
 
 header .container {
@@ -177,7 +177,7 @@ header .intro-text h2 a:hover {
     padding: 0.5em 0.66em;
     margin: 0px 0.32em;
     border-radius: 5px;
-    background-color: #79ACDA;
+    background-color: #2c3e50;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -185,12 +185,13 @@ header .intro-text h2 a:hover {
 
 .navbar li a:hover, .navbar li a:focus, .navbar li a:active {
   color: white !important;
+  text-decoration: underline;
   background-color: #2c3e50 !important;
 }
 
 .navbar li a.reverse, a.trynow {
     background-color: white;
-    color: #79ACDA;
+    color: #2c3e50;
     font-size: 1.35294em;
     padding: 0.5em 0.66em;
     margin: 0px 0.32em;
@@ -218,15 +219,15 @@ header .intro-text h2 a:hover {
 }
 
 .btn-block a {
-  color: #79ACDA !important;
+  color: white !important;
   -webkit-transition: all ease .5s;
   -moz-transition: all ease .5s;
   transition: all ease .5s;
 }
 
 .btn-block {
-  background: white;
-  border: 1px solid white;
+  background: #5CB85C;
+  border: 1px solid #5CB85C;
   -webkit-transition: all ease .5s;
   -moz-transition: all ease .5s;
   transition: all ease .5s;
