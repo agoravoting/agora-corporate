@@ -67,4 +67,5 @@ $(document).ready(function () {
 $("#closecookies").click(function (e) {
   e.preventDefault();
   createCookie("do-not-show-cookies-header", "true", 3600);
+  $("#cookies-alert").css("display", "none");
 });
