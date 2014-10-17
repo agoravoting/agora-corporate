@@ -35,6 +35,27 @@ h6 {
     font-weight: 700;
 }
 
+#cookies-alert {
+  display: none;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  background-color: #2C3E50;
+  z-index: 1000;
+  margin-bottom: 0;
+}
+
+#cookies-alert a {
+  color: white;
+  text-decoration: underline;
+}
+
+#cookies-alert a:hover {
+  text-decoration: underline;
+}
+
 p.hero  {
   font-size: 2.35294em;
   font-weight: normal;
